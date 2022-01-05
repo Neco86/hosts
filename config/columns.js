@@ -83,7 +83,7 @@
           },
           {
             title: '本周',
-            dataIndex: '4',
+            dataIndex: '14',
           },
         ],
       },
