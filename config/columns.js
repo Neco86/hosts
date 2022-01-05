@@ -9,18 +9,22 @@
       {
         title: '本月业绩任务(万)',
         dataIndex: '1',
+        sorter: (a,b) => a[1] - b[1]
       },
       {
         title: '本月带看量任务(组)',
         dataIndex: '2',
+        sorter: (a,b) => a[2] - b[2]
       },
       {
         title: '本月重点新增(个)',
         dataIndex: '3',
+        sorter: (a,b) => a[3] - b[3]
       },
       {
         title: '本月微信通过目标(个)',
         dataIndex: '4',
+        sorter: (a,b) => a[4] - b[4]
       },
       {
         title: '带看',
@@ -28,10 +32,12 @@
           {
             title: '今日',
             dataIndex: '5',
+            sorter: (a,b) => a[5] - b[5]
           },
           {
             title: '本周',
             dataIndex: '6',
+            sorter: (a,b) => a[6] - b[6]
           },
         ],
       },
@@ -41,10 +47,12 @@
           {
             title: '今日',
             dataIndex: '7',
+            sorter: (a,b) => a[7] - b[7]
           },
           {
             title: '本周',
             dataIndex: '8',
+            sorter: (a,b) => a[8] - b[8]
           },
         ],
       },
@@ -54,10 +62,12 @@
           {
             title: '今日',
             dataIndex: '9',
+            sorter: (a,b) => a[9] - b[9]
           },
           {
             title: '本周',
             dataIndex: '10',
+            sorter: (a,b) => a[10] - b[10]
           },
         ],
       },
@@ -67,10 +77,12 @@
           {
             title: '今日',
             dataIndex: '11',
+            sorter: (a,b) => a[11] - b[11]
           },
           {
             title: '本周',
             dataIndex: '12',
+            sorter: (a,b) => a[12] - b[12]
           },
         ],
       },
@@ -80,10 +92,12 @@
           {
             title: '今日',
             dataIndex: '13',
+            sorter: (a,b) => a[13] - b[13]
           },
           {
             title: '本周',
             dataIndex: '14',
+            sorter: (a,b) => a[14] - b[14]
           },
         ],
       },
@@ -93,10 +107,12 @@
           {
             title: '今日',
             dataIndex: '15',
+            sorter: (a,b) => a[15] - b[15]
           },
           {
             title: '本周',
             dataIndex: '16',
+            sorter: (a,b) => a[16] - b[16]
           },
         ],
       },
@@ -106,4 +122,4 @@
       },
     ],
   },
-]
+];
